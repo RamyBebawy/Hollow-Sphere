@@ -1,0 +1,271 @@
+<zuiprezi><version>8</version><zui-table><settings>
+									<autoplay>
+										<delay>4000</delay>
+									</autoplay>
+								<bounds x="-16489.39137298676" y="-9267.703373031689" width="32978.78274597352" height="18535.406746063378"/><aspectratio>off</aspectratio><mode type="locked"/></settings><object id="4_13415665" type="button" x="-8.440157677471422e-13" y="2.6478926046969165e-13" r="0" s="31.094458557395367" class="invisible"><type>invisible</type><size><w>1061.557386030734</w><h>597.1260296422879</h></size><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>universe_3D-quick</parentTemplate></meta><layout><frametype value="OVERVIEW"/></layout></object><object id="24_7674903" type="shape" x="-6063.178871984705" y="-4921.969566814817" r="8.200693774549379" s="4.4044676979872195" class="line5"><geom type="line"><sp>-289.86528395242357 0</sp><ep>289.8652839524235 0</ep><t>8</t></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>universe_3D-quick</parentTemplate></meta></object><object id="25_7674903" type="shape" x="-7681.841435663999" y="-3325.910560950186" r="-9.946776191911392" s="6.391532469275909" class="line5"><geom type="line"><sp>-437.16060336828224 0</sp><ep>437.16060336828224 0</ep><t>8</t></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>universe_3D-quick</parentTemplate></meta></object><object id="26_7674903" type="shape" x="-5438.115268701278" y="-1335.1147246715632" r="-37.434167679626064" s="7.159036388479846" class="line5"><geom type="line"><sp>-372.1746286167377 0</sp><ep>372.17462861673766 0</ep><t>8</t></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>universe_3D-quick</parentTemplate></meta></object><object id="27_7674903" type="shape" x="-2352.089722347655" y="-357.20081731598236" r="-48.55833386735561" s="8.491624840706717" class="line5"><geom type="line"><sp>-293.8139579460418 0</sp><ep>293.8139579460418 0</ep><t>8</t></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>universe_3D-quick</parentTemplate></meta></object><object id="28_7674903" type="shape" x="5284.0092493808725" y="-134.75996743387427" r="-132.0927220636547" s="8.491624840706718" class="line5"><geom type="line"><sp>-393.32815364015727 0</sp><ep>393.32815364015727 0</ep><t>8</t></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>universe_3D-quick</parentTemplate></meta></object><object id="29_7674903" type="shape" x="7880.627617619005" y="-1884.016224121135" r="-158.2289266933389" s="7.159036388479849" class="line5"><geom type="line"><sp>-474.8203148741544 0</sp><ep>474.8203148741544 0</ep><t>8</t></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>universe_3D-quick</parentTemplate></meta></object><object id="30_7674903" type="shape" x="8106.928031458594" y="-4202.606735698279" r="-175.30490647956591" s="6.14724107693743" class="line5"><geom type="line"><sp>-293.15457900432443 0</sp><ep>293.15457900432443 0</ep><t>8</t></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>universe_3D-quick</parentTemplate></meta></object><object id="0" type="image" x="-9918.65" y="-5685.15" r="0" s="8.245185777961176"><source w="451" h="314">quadcopter.jpg<url>quadcopter.jpg</url></source><sourceUrl>quadcopter.jpg</sourceUrl></object><object id="1" type="image" x="-12065.35" y="-2320.1" r="0" s="8.467055630724857"><source w="312" h="322">bluesphere1.jpg<url>bluesphere1.jpg</url></source><sourceUrl>blue sphere 1.jpg</sourceUrl></object><object id="2" type="image" x="-9918.65" y="1487.85" r="0" s="3.001466631607282"><source w="1091" h="775">spheres_slide.jpg<url>spheres_slide.jpg</url></source><sourceUrl>spheres_slide.jpg</sourceUrl></object><object id="3" type="image" x="1.549999999999983" y="3421.7999999999997" r="0" s="4.977054599904477"><source w="429" h="555">co2tank.png<url>co2tank.png</url></source><sourceUrl>co2 tank.png</sourceUrl></object><object id="4" type="image" x="-4720.55" y="3420.25" r="0" s="6.224086838053684"><source w="502" h="456">hollowsphere.jpg<url>hollowsphere.jpg</url></source><sourceUrl>hollowsphere.jpg</sourceUrl></object><object id="5" type="image" x="11926.65" y="-3767" r="0" s="4.459658388577117"><source w="600" h="399">Untitled.jpg<url>Untitled.jpg</url></source><sourceUrl>Untitled.jpg</sourceUrl></object><object id="6" type="image" x="11882.5" y="-622.5999999999999" r="0" s="9.604961218051717"><source w="176" h="287">c.jpg<url>c.jpg</url></source><sourceUrl>c.jpg</sourceUrl></object><object id="7" type="image" x="3878.85" y="3421.7999999999997" r="0" s="1.9036435228741804"><source w="1171" h="617">beforemoving.png<url>beforemoving.png</url></source><sourceUrl>before moving.png</sourceUrl></object><object id="8" type="image" x="8019.4" y="3421.7499999999995" r="0" s="2.281451736605229"><source w="1182" h="559">whilemoving.png<url>whilemoving.png</url></source><sourceUrl>while moving.png</sourceUrl></object><object id="9" type="image" x="11926.6" y="3421.7499999999995" r="0" s="3.707917364491637"><source w="1083" h="532">aftermoving.png<url>aftermoving.png</url></source><sourceUrl>after moving.png</sourceUrl></object><object id="9_13415665" type="text" x="653.2775360179643" y="-4876.082701281002" r="0" s="23.24267399577777" class="head head-background"><height>98.05078125</height><width>434.2007108701871</width><p align="center"><text><![CDATA[Robotics]]></text></p><p align="center"><text><![CDATA[ZERO GEE BEE challenge]]></text></p><p align="center"><text><![CDATA[Alte]]></text></p></object><object id="10" type="shape" x="184.08029396846604" y="-260.26820916179156" r="-80.77142431537041" s="8.491624840706715" class="line5"><geom type="line"><sp>-234.70475229925754 0</sp><ep>234.7047522992575 0</ep><t>8</t></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>universe_3D-quick</parentTemplate></meta></object><object id="11" type="shape" x="2660.5564156342716" y="97.4810239867852" r="-119.99999999999999" s="8.491624840706717" class="line5"><geom type="line"><sp>-278.96221894110977 0</sp><ep>278.96221894110977 0</ep><t>8</t></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>universe_3D-quick</parentTemplate></meta></object><object id="12" type="shape" x="7224.23755243467" y="-316.0160639823593" r="-144.3364474170996" s="8.491624840706718" class="line5"><geom type="line"><sp>-491.06880640971355 0</sp><ep>491.0688064097136 0</ep><t>8</t></geom><meta><notModifiedByUser>from-template</notModifiedByUser><parentTemplate>universe_3D-quick</parentTemplate></meta></object></zui-table><background><layer depth="26.675416458300138" fadescale="0.08247293921124382"><object id="background177870939" type="image" x="112.7289707724558" y="-641.9029823324181" r="0" s="25.380483116718366"><source w="4000" h="2250">h7ieuhdigx.png<url>h7ieuhdigx.png</url></source><sourceUrl>stars1_00352_00352.png</sourceUrl></object></layer><layer depth="53.350832916600275" fadescale="0.412364696056219"><object id="background177878249" type="image" x="112.7289707724558" y="-641.9029823324181" r="0" s="37.624334268502096"><source w="4000" h="2250">y0g7gcpoqo.png<url>y0g7gcpoqo.png</url></source><sourceUrl>stars2_00352_00352_00352.png</sourceUrl></object></layer><layer depth="80.02624937490044" fadescale="2.061823480281095"><object id="background177871843" type="image" x="112.7289707724558" y="-641.9029823324181" r="0" s="49.868185420285826"><source w="4000" h="2250">zltqi7f7Zf.png<url>zltqi7f7Zf.png</url></source><sourceUrl>stars3_00352_00352_00352.png</sourceUrl></object></layer></background><path><s><eagle o="4_13415665"/></s><s><eagle o="4_13415665"/></s><s><eagle o="0"/></s><s><eagle o="1"/></s><s><eagle o="2"/></s><s><eagle o="4"/></s><s><eagle o="3"/></s><s><eagle o="7"/></s><s><eagle o="8"/></s><s><eagle o="9"/></s><s><eagle o="6"/></s><s><eagle o="5"/></s></path><style type="text/css"><![CDATA[
+@font-face
+{
+	src: url('PTSans-B.keg');
+	fontFamily: body;
+}
+
+@font-face
+{
+	src: url('OpenSans-XB.keg');
+	fontFamily: head;
+}
+
+@font-face
+{
+	src: url('LobsterTwo.keg');
+	fontFamily: strong;
+}
+
+ZLabel
+{
+	lockTintAlpha: 0.3;
+	lockTintColor: #000;
+	padding: 1.2;
+	rollOverShadowColor: #ddd;
+}
+
+ZLabel.head
+{
+	color: #fff;
+	fontFamily: head;
+}
+
+.line5
+{
+	color: #fff;
+	gradEndColor: #fff;
+	gradStartColor: #fff;
+}
+
+.poly5
+{
+	borderColor: #fff;
+	borderThickness: 9;
+	gradEndColor: #000;
+	gradStartColor: #000;
+}
+
+ZLabel.strong
+{
+	color: #f3c;
+	fontFamily: strong;
+}
+
+.line1
+{
+	color: #f3c;
+	gradEndColor: #f3c;
+	gradStartColor: #f3c;
+}
+
+.poly1
+{
+	borderColor: #f3c;
+	borderThickness: 9;
+	gradEndColor: #000;
+	gradStartColor: #000;
+}
+
+ZLabel.body
+{
+	color: #efefef;
+	fontFamily: body;
+}
+
+Background
+{
+	gradEnd: #000;
+	gradStart: #000;
+}
+
+Grid
+{
+	color: #464646;
+}
+
+ZFrame.circle
+{
+	borderColor: #fff;
+	borderThickness: 2;
+	gradEndAlpha: 1;
+	gradEndColor: #f3c;
+	gradStartAlpha: 0;
+	gradStartColor: #7a8082;
+	padding: 1.03;
+	rollOverShadowColor: #ddd;
+	thickness: 8;
+}
+
+.line4
+{
+	color: #164855;
+	gradEndColor: #164855;
+	gradStartColor: #164855;
+}
+
+.poly4
+{
+	borderColor: #35afa9;
+	borderThickness: 0;
+	gradEndColor: #35afa9;
+	gradStartColor: #35afa9;
+}
+
+ZFrame.bracket
+{
+	borderColor: #e0e6e8;
+	borderThickness: 0;
+	gradEndColor: #7a8082;
+	gradStartColor: #bec4c6;
+	padding: 1.03;
+	rollOverShadowColor: #ddd;
+	thickness: 8;
+}
+
+.line2
+{
+	color: #797979;
+	gradEndColor: #797979;
+	gradStartColor: #797979;
+}
+
+.poly2
+{
+	borderColor: #f3c;
+	borderThickness: 0;
+	gradEndColor: #f3c;
+	gradStartColor: #f3c;
+}
+
+ZFrame.roundrect
+{
+	borderColor: #808080;
+	borderThickness: 0;
+	gradEndAlpha: 0.7;
+	gradEndColor: #474747;
+	gradStartAlpha: 0.7;
+	gradStartColor: #474747;
+	radius: 3;
+	rollOverShadowColor: #ddd;
+}
+
+ZPoly
+{
+	borderAlpha: 1;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+ZCircle
+{
+	borderAlpha: 1;
+	gradEndAlpha: 1;
+	gradStartAlpha: 1;
+	lockTintAlpha: 0;
+	radius: 0;
+	thickness: 100;
+}
+
+ZArrow
+{
+	gradEndColor: #fff;
+	gradStartColor: #fff;
+	lockTintAlpha: 0;
+	lockTintColor: #000;
+}
+
+.line3
+{
+	color: #35afa9;
+	gradEndColor: #35afa9;
+	gradStartColor: #6dd6d1;
+}
+
+.poly3
+{
+	borderColor: #35afa9;
+	borderThickness: 9;
+	gradEndColor: #000;
+	gradStartColor: #000;
+}
+
+ZLine
+{
+	color: #fff;
+	lockTintAlpha: 0;
+	lockTintColor: #000;
+	rollOverShadowColor: #ddd;
+}
+
+ZCurveLine
+{
+	color: #fff;
+	lockTintAlpha: 0.4;
+	lockTintColor: #000;
+	rollOverShadowColor: #ddd;
+}
+
+ZMarker
+{
+	alpha: 0.3;
+	color: #00e1ff;
+	lockTintAlpha: 0.4;
+	lockTintColor: #000;
+	rollOverShadowColor: #ddd;
+}
+
+ZVideo
+{
+	lockTintAlpha: 0.4;
+	lockTintColor: #000;
+	padding: 1.2;
+	rollOverShadowColor: #ddd;
+}
+
+ZYoutube
+{
+	lockTintAlpha: 0.4;
+	lockTintColor: #000;
+	rollOverShadowColor: #ddd;
+}
+
+ZLoadedImage
+{
+	lockTintAlpha: 0.4;
+	lockTintColor: #000;
+	rollOverShadowColor: #ddd;
+}
+
+ZLabel.head-background
+{
+	background-alpha: 0.9;
+	background-color: #f433c3;
+	background-padding: 4;
+	background-padding-bottom: 4;
+}
+
+ZLabel.strong-background
+{
+	background-alpha: 0.9;
+	background-color: #fff;
+	background-padding: 4;
+	background-padding-bottom: 4;
+}
+
+ZLabel.body-background
+{
+	background-alpha: 0.9;
+	background-color: #333;
+	background-padding: 4;
+	background-padding-bottom: 4;
+}
+
+]]></style><hash>594b1efd</hash><sync><oid>UNKNOWN</oid><hash>UNKNOWN</hash><lid>IMmJUP1i</lid><title>Untitled Prezi</title></sync><config>Qt9feeqJeHqabgAbC6UBc7SIl+VypsSoVA==</config></zuiprezi>
