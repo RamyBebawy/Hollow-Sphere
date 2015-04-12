@@ -81,7 +81,7 @@ Mat imgHSV,imgThresholded,imgOriginal;
 
 
 
-   inRange(imgHSV, Scalar(i, iLowS, 95), Scalar(81, iHighS, iHighV), imgThresholded); //Threshold the image
+   inRange(imgHSV, Scalar(iLowH, iLowS, iLowV), Scalar(iHighH, iHighS, iHighV), imgThresholded); //Threshold the image
     
 // morphological opening (remove small objects from the foreground)
  erode(imgThresholded, imgThresholded, getStructuringElement(MORPH_ELLIPSE, Size(2,2)) );
@@ -107,7 +107,7 @@ erode(imgThresholded, imgThresholded, getStructuringElement(MORPH_ELLIPSE, Size(
 	   line(imgOriginal, Point(posX, posY),Point(posX+20, posY-20), Scalar(0,255,255), 2);
 	   line(imgOriginal, Point(posX, posY),Point(posX-20, posY+20), Scalar(0,255,255), 2);
 	   line(imgOriginal, Point(posX, posY),Point(posX-20, posY-20), Scalar(0,255,255), 2);
-	   //circle( imgOriginal,Point(posX,posY),20,Scalar( 0, 200, 255 ),4,2 );
+	   circle( imgOriginal,Point(posX,posY),20,Scalar( 0, 200, 255 ),4,2 );
 	  putText(imgOriginal,"Greenish", Point (posX+20.0,posY ),FONT_HERSHEY_SIMPLEX,0.35, Scalar(0,0,0),1, 5, false );
 
    }
@@ -146,7 +146,7 @@ erode(imgThresholded, imgThresholded, getStructuringElement(MORPH_ELLIPSE, Size(
    }
    imshow("Thresholded Image", imgThresholded);
 
-   inRange(imgHSV, Scalar(0, iLowS, iHighV), Scalar(22, iHighS, iHighV), imgThresholded); //Threshold the image
+   inRange(imgHSV, Scalar(iLowH, iLowS, iHighV), Scalar(iHighH, iHighS, iHighV), imgThresholded); //Threshold the image
     
   //morphological opening (remove small objects from the foreground)
   erode(imgThresholded, imgThresholded, getStructuringElement(MORPH_ELLIPSE, Size(2,2)) );
@@ -177,16 +177,15 @@ erode(imgThresholded, imgThresholded, getStructuringElement(MORPH_ELLIPSE, Size(
 
    }
    
-   inRange(imgHSV, Scalar(21, iLowS, iLowV), Scalar(38, iHighS, iHighV), imgThresholded); //Threshold the image
+   inRange(imgHSV, Scalar(iLowH, iLowS, iLowV), Scalar(iHighH, iHighS, iHighV), imgThresholded); //Threshold the image
     
   //morphological opening (remove small objects from the foreground)
-	cout<<"d"<<endl;
   erode(imgThresholded, imgThresholded, getStructuringElement(MORPH_ELLIPSE, Size(2,2)) );
  dilate( imgThresholded, imgThresholded, getStructuringElement(MORPH_ELLIPSE, Size(12, 12)) ); 
    //morphological closing (fill small holes in the foreground)
  dilate( imgThresholded, imgThresholded, getStructuringElement(MORPH_ELLIPSE, Size(40, 40)) ); 
   erode(imgThresholded, imgThresholded, getStructuringElement(MORPH_ELLIPSE, Size(2, 2)) );
-  cout<<"c"<<endl;
+ 
   oMoments = moments(imgThresholded);
    dM01 = oMoments.m01;
    dM10 = oMoments.m10;
@@ -203,12 +202,12 @@ erode(imgThresholded, imgThresholded, getStructuringElement(MORPH_ELLIPSE, Size(
 	   line(imgOriginal, Point(posX, posY),Point(posX+20, posY-20), Scalar(0,0,0), 2);
 	   line(imgOriginal, Point(posX, posY),Point(posX-20, posY+20), Scalar(0,0,0), 2);
 	   line(imgOriginal, Point(posX, posY),Point(posX-20, posY-20), Scalar(0,0,0), 2);
-	   //circle( imgOriginal,Point(posX,posY),20,Scalar( 0, 200, 255 ),4,2 );
+	   circle( imgOriginal,Point(posX,posY),20,Scalar( 0, 200, 255 ),4,2 );
 	  putText(imgOriginal,"Yellowish", Point (posX+20.0,posY ),FONT_HERSHEY_SIMPLEX,0.35, Scalar(0,0,0),1, 5, false );
 
    }
 
-   inRange(imgHSV, Scalar(69, iLowS, iLowV), Scalar(iHighH, iHighS, iHighV), imgThresholded); //Threshold the image
+   inRange(imgHSV, Scalar(iLowH, iLowS, iLowV), Scalar(iHighH, iHighS, iHighV), imgThresholded); //Threshold the image
     
   //morphological opening (remove small objects from the foreground)
   erode(imgThresholded, imgThresholded, getStructuringElement(MORPH_ELLIPSE, Size(2,2)) );
